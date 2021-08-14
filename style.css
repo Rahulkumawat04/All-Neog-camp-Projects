@@ -1,0 +1,97 @@
+*{
+    --primary-colour: rgb(60, 107, 209);
+    --secondary-colour: rgb(131, 19, 15);
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0rem;
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center {
+    max-width: 400px;
+    /* margin: auto; */
+}
+
+/* links */
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.primary-link {
+    background-color: var(--primary-colour);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.secondary-link {
+    color: var(--primary-colour);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-colour);
+}
+
+/* list */
+.non-bullet-list {
+    list-style: none;
+}
+
+.inline-list {
+    display: inline;
+}
+
+/* navigation bar */
+
+
+/* sections */
+.section {
+    text-align: center;
+}
+
+.section h2 {
+    padding: 1rem;
+    text-align: center;
+}
+
+
+
+/* Projects section css */
+.project-container {
+    border: 1px solid var(--primary-colour);
+    border-radius: 2rem;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.projects-link {
+    font-style: oblique;
+}
+
+.img{
+    width: 70%;
+    margin-top: 1rem;
+    border-radius: 2rem;
+}
+
+.block-display{
+    display: block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

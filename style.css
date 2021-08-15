@@ -1,7 +1,15 @@
 *{
-    --primary-colour: rgb(60, 107, 209);
+    --primary-colour: #0a1af7;
     --secondary-colour: rgb(131, 19, 15);
 
+}
+
+h1{
+    text-align: center;
+}
+
+header{
+    text-align: center;
 }
 
 
@@ -11,6 +19,8 @@
 body {
     font-family: 'Nunito', sans-serif;
     margin: 0rem;
+    background-color: black;
+    color: white;
 }
 
 .container {
@@ -78,9 +88,9 @@ body {
 }
 
 .img{
-    width: 70%;
-    margin-top: 1rem;
-    border-radius: 2rem;
+    width: 100%;
+    margin-top: 0.5rem;
+    border-radius: 1rem;
 }
 
 .block-display{
@@ -94,4 +104,17 @@ body {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.mark-span{
+    background-color: rgb(3, 129, 66);
+    padding: 5px;
+    border-radius: 1rem;
+}
+
+.tech-used-span{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 1rem;
 }
